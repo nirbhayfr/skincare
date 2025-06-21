@@ -30,7 +30,7 @@ function HeroSection() {
                          that restore, protect, and enhance your natural glow
                          every day.
                     </p>
-                    <h2 className="text-6xl uppercase [word-wrap:_break-word] w-[60%] font-bold mx-auto fade-up max-lg:w-[75%] max-md:absolute max-md:bottom-0 max-md:text-[6rem]  max-md:w-full max-md:text-center z-100 max-xs:text-7xl max-xxs:static max-xxs:row-start-1">
+                    <h2 className="text-6xl uppercase [word-wrap:_break-word] w-[60%] font-bold mx-auto fade-up max-lg:w-[75%] max-md:absolute max-md:bottom-0 max-md:text-[6rem]  max-md:w-full max-md:text-center z-100 max-xs:text-7xl max-xxs:static max-xxs:row-start-1 max-xxs:text-6xl">
                          {winWidth >= 768 && <p>Glow Natur&shy;ally</p>}
                          {winWidth < 768 && `Glowwww\n Naturally`}
                     </h2>
@@ -56,7 +56,7 @@ function HeroSection() {
                          </div>
                     </div>
                     <div className="flex justify-end items-center fade-up relative">
-                         <h1 className="uppercase font-extrabold mt-0 mb-0 fade-up text-[5rem] absolute -top-21 text-center w-full z-1">
+                         <h1 className="uppercase font-extrabold mt-0 mb-0 fade-up text-[5rem] absolute -top-21 text-center w-full z-1 xxs:hidden">
                               skincare
                          </h1>
                          <img

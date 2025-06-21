@@ -32,7 +32,7 @@ function AnimatedText() {
      }, []);
 
      return (
-          <section className="-mt-24 bg-primary-light px-12 py-8 text-3xl/12 max-md:-mt-0 max-md:text-xl/6">
+          <section className="-mt-24 bg-primary-light px-12 py-8 text-3xl/12 max-md:-mt-0 max-md:text-xl/6 [will-change:_transform]">
                <p className="highlight-text">
                     Experience the ultimate in skincare with our expertly
                     formulated products, crafted to nourish, protect, and
