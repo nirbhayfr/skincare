@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+     --color-primary: #eff5e1;
+     --color-primary-light: #fefff4;
+     --color-icon-bg: #fefff4;
+     --color-font-primary: #2d3b36;
+     --color-font-secondary: #35433e;
+     --color-font-footer: #e7e8e0;
+     --font-inter: "Inter", "sans-serif";
+     --breakpoint-xxs: 30rem;
+     --breakpoint-xs: 35rem;
+}
+.slick-track {
+     display: flex !important;
+}
+
+.slick-slide {
+     height: min-content !important;
+}
+
+.slick-slide div {
+     margin: 0 10px;
+}
+
+/* //Hero-section, social-media-links
+//Gradient-end, middle-section
+//cart-svg-bg
+//Gradient-start, all-fonts-incl-hero-section-big-skincare
+//footer-big-skincare
+//other-footer-fonts */
