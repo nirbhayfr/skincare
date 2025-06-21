@@ -56,7 +56,7 @@ function HeroSection() {
                          </div>
                     </div>
                     <div className="flex justify-end items-center fade-up relative">
-                         <h1 className="uppercase font-extrabold mt-0 mb-0 fade-up text-[5rem] absolute -top-21 text-center w-full z-1">
+                         <h1 className="uppercase font-extrabold mt-0 mb-0 fade-up text-[5rem] absolute -top-21 text-center w-full z-1 xxs:hidden">
                               skincare
                          </h1>
                          <img
